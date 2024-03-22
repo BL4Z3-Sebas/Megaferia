@@ -50,9 +50,7 @@ public class Stand {
         return editoriales;
     }
 
-    public void setEditoriales(ArrayList editoriales) {
-        this.editoriales = editoriales;
-    }
+    
     
 
 }
