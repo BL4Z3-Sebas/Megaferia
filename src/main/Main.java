@@ -10,7 +10,8 @@ package main;
  * @author cotes
  */
 public class Main {
+    
     public static void main(String[] args) {
-        
+        System.out.println("Ya quiero irme polfavol");
     }
 }
