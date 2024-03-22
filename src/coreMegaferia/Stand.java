@@ -9,6 +9,7 @@ public class Stand {
     private float precio;
     private  ArrayList editoriales;
 
+
     public Stand(int id, float precio, ArrayList editoriales) {
         this.id = id;
         this.precio = precio;
@@ -22,9 +23,11 @@ public class Stand {
         return id;
     }
 
+
     public void setId(int id) {
         this.id = id;
     }
+
 
     public float getPrecio() {
         return precio;
@@ -34,6 +37,15 @@ public class Stand {
         this.precio = precio;
     }
 
+
+    public void setEditoriales(ArrayList editoriales) {
+        this.editoriales = editoriales;
+    }
+
+    @Override
+    public String toString() {
+        return "Stand{" + "id=" + id + ", precio=" + precio + ", editoriales=" + editoriales + '}';
+    }
     public ArrayList getEditoriales() {
         return editoriales;
     }
@@ -42,4 +54,5 @@ public class Stand {
         this.editoriales = editoriales;
     }
     
+
 }
