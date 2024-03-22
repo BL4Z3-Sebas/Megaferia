@@ -13,5 +13,13 @@ public abstract class Libro {
     protected String nombre;
     protected String isnb;
     protected String genero;
+
+    public Libro(String titulo, String nombre, String isnb, String genero) {
+        this.titulo = titulo;
+        this.nombre = nombre;
+        this.isnb = isnb;
+        this.genero = genero;
+    }
+    
     
 }
